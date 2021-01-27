@@ -92,6 +92,8 @@
 	#header .social-links li { margin: 0 4px; }
 	#header .social-links .social-tooltip { font-size: 18px; }
 	
+	.wrap-nav#wrap-nav-header { border-bottom: 0; }
+	
 	/* footer */
 	#footer .pad { padding: 40px; }
 	#nav-footer.nav-container { padding: 0; }
