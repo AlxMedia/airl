@@ -214,6 +214,11 @@
 	/* blog */
 	.featured-title { font-size: 22px; }
 	
+	.card-articles-wrap { padding-right: 0; }
+	.card-header { flex: 0 0 30px; }
+	.card-header-title span { display: none; }
+	.mini-card-grid { padding-left: 25px; }
+	
 	.header-comments li .header-comments-title,
 	.header-comments li .header-comments-excerpt { display: none; }
 	.header-comments li i.fa { display: inline-block; font-size: 16px; margin-top: 4px; }
