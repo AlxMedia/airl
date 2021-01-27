@@ -25,7 +25,7 @@ $highlight = new WP_Query(
 				<h3 class="mini-card-title"><a href="<?php the_permalink(); ?>" rel="bookmark"><?php the_title(); ?></a></h3>
 				<div class="mini-card-category"><?php the_category(' / '); ?></div>
 				<div class="mini-card-date"><i class="far fa-calendar"></i><?php the_time( get_option('date_format') ); ?></div>
-				<div class="mini-card-thumb"><?php the_post_thumbnail('airl-small'); ?></div>
+				<?php if ( has_post_thumbnail() ): ?><div class="mini-card-thumb"><?php the_post_thumbnail('airl-small'); ?></div><?php endif; ?>
 			</article>
 			<?php endwhile; ?>
 		</div>

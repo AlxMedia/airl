@@ -841,7 +841,7 @@ box-shadow: 0 0 2px rgba(255,255,255,0.4);
  *  Section: Page
 /* ------------------------------------------------------------------------- */
 .featured-item-wrap { background: #fff; box-shadow: 0 10px 10px rgba(0,0,0,0.03), 0 1px 0 rgba(0,0,0,0.05); margin: 20px 10px 14px; border-radius: 10px 10px 20px 20px; overflow: hidden; }
-.featured-item { background-color: #666; background-position: center; background-size: cover; border-bottom: 5px solid #f1f1f1; border-radius: 10px 10px 20px 20px; overflow: hidden; position: relative; z-index: 2; overflow: hidden; width: 100%; float: left; height: 260px; position: relative; }
+.featured-item { background-color: #ccc; background-position: center; background-size: cover; border-bottom: 5px solid #f1f1f1; border-radius: 10px 10px 20px 20px; overflow: hidden; position: relative; z-index: 2; overflow: hidden; width: 100%; float: left; height: 260px; position: relative; }
 .featured-item:before { opacity: 0.7; background: url(img/image-gradient.png) repeat-x; background-size: 100% 100%; content: ""; position: absolute; display: block; height: 100%; width: 100%; bottom: 0; display: block; transition: all .4s ease; }
 .featured-item:hover:before { opacity: 0.4; }
 
