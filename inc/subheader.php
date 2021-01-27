@@ -1,4 +1,4 @@
-<?php if ( is_home() && !is_paged() && ( get_theme_mod('featured-posts-count','0') !='0') ): ?>
+<?php if ( is_home() && !is_paged() && ( get_theme_mod('featured-posts-count','7') !='0') ): ?>
 	<div class="subheader">
 		<div class="subheader-inner container-inner">
 			<ul class="subheader-list group">

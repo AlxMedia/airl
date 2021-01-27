@@ -88,7 +88,7 @@
 	.toggle-search.active { padding-top: 13px; padding-bottom: 13px; }
 	.search-expand { width: 100%; top: 6px; left: 64px; right: 64px; }
 	
-	#header .social-links { float: none; margin: 0 0 20px; text-align: center; }
+	#header .social-links { float: none; margin: 0 0 10px; text-align: center; }
 	#header .social-links li { margin: 0 4px; }
 	#header .social-links .social-tooltip { font-size: 18px; }
 	
