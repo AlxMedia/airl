@@ -969,8 +969,8 @@ body.single .card-articles-wrap { padding-bottom: 60px; }
 .mini-card-date { font-size: 14px; color: rgba(0,0,0,0.5);}
 .mini-card-date i { margin-right: 6px; }
 .mini-card-author {  }
-.mini-card-thumb { background: #fff; box-shadow: 0 10px 10px rgba(0,0,0,0.03), 0 1px 0 rgba(0,0,0,0.05); padding: 5px; position: absolute; right: 15px; bottom: 15px; width: 64px; height: 64px; border-radius: 10px; }
-.mini-card-thumb img { border-radius: 6px; }
+.mini-card-thumb { background: #fff; box-shadow: 0 10px 10px rgba(0,0,0,0.03), 0 1px 0 rgba(0,0,0,0.05); padding: 5px; position: absolute; right: 15px; bottom: 15px; width: 64px; height: 64px; border-radius: 10px 10px 20px 20px; }
+.mini-card-thumb img { width: 64px; height: 64px; border-radius: 7px 7px 16px 16px; }
 
 /*  subheader : recent comments
 /* ------------------------------------ */
@@ -1031,7 +1031,7 @@ body.single .card-articles-wrap { padding-bottom: 60px; }
 
 .entry-list-inner { padding: 0 30px 20px 30px; position: relative; }
 .entry-list-inner.entry-thumbnail-enabled {  }
-.entry-list .entry-thumbnail { background: #f5f5f5; border-bottom: 5px solid #f1f1f1; border-radius: 10px 10px 20px 20px; overflow: hidden; position: relative; }
+.entry-list .entry-thumbnail { background: #f5f5f5; border-bottom: 5px solid #f1f1f1; border-radius: 10px 10px 20px 20px; max-height: 265px; overflow: hidden; position: relative; }
 .entry-list .entry-thumbnail img { display: block; width: 100%; height: auto; }
 .entry-list .entry-thumbnail:hover .thumb-icon { background: #fff; color: #333; }
 

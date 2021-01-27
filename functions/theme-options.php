@@ -167,7 +167,7 @@ Kirki::add_field( 'airl_theme', array(
 	'label'			=> esc_html__( 'Featured Post Count', 'airl' ),
 	'description'	=> esc_html__( 'Max number of featured posts to display. Set it to 0 to disable', 'airl' ),
 	'section'		=> 'blog',
-	'default'		=> '0',
+	'default'		=> '7',
 	'choices'     => array(
 		'min'	=> '0',
 		'max'	=> '14',
@@ -385,7 +385,7 @@ Kirki::add_field( 'airl_theme', array(
 	'label'			=> esc_html__( 'Global Layout', 'airl' ),
 	'description'	=> esc_html__( 'Other layouts will override this option if they are set', 'airl' ),
 	'section'		=> 'layout',
-	'default'		=> 'col-2cr',
+	'default'		=> 'col-2cl',
 	'choices'     => array(
 		'col-2cl'	=> get_template_directory_uri() . '/functions/images/col-2cl.png',
 		'col-2cr'	=> get_template_directory_uri() . '/functions/images/col-2cr.png',

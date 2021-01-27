@@ -236,8 +236,8 @@ if ( ! function_exists( 'airl_layout_class' ) ) {
 	
 	function airl_layout_class() {
 		// Default layout
-		$layout = 'col-2cr';
-		$default = 'col-2cr';
+		$layout = 'col-2cl';
+		$default = 'col-2cl';
 
 		// Check for page/post specific layout
 		if ( is_page() || is_single() ) {
