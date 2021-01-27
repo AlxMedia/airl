@@ -64,5 +64,5 @@ Source: https://stocksnap.io
 
 == Changelog ==
 
-= 1.0.0 - 2021-02-01 =
+= 1.0.0 - 2021-01-28 =
 * Initial release
