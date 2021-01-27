@@ -154,15 +154,4 @@ jQuery(document).ready(function($) {
         } );
     } );
 	
-/*  Move sidebar
-/* ------------------------------------ */
-	$(window).on('load resize',function(){		
-		if ($(window).width() < 960) {   
-			$(".sidebar.s1").appendTo("#move-sidebar-content");
-		}
-		else {  
-			$(".sidebar.s1").appendTo("#move-sidebar-header");
-		}
-	}); 
-	
 });
