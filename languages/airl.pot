@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Airl\n"
-"POT-Creation-Date: 2021-01-27 12:32+0100\n"
+"POT-Creation-Date: 2021-01-27 13:26+0100\n"
 "PO-Revision-Date: 2018-09-21 21:27+0100\n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -279,7 +279,7 @@ msgid "Featured Posts"
 msgstr ""
 
 #: functions/theme-options.php:148
-msgid "To show featured posts in the featured section AND the content below"
+msgid "Exclude featured posts from the content below"
 msgstr ""
 
 #: functions/theme-options.php:156

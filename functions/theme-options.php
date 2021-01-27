@@ -142,12 +142,12 @@ Kirki::add_field( 'airl_theme', array(
 ) );
 // Blog: Featured Posts Include
 Kirki::add_field( 'airl_theme', array(
-	'type'			=> 'checkbox',
+	'type'			=> 'switch',
 	'settings'		=> 'featured-posts-include',
 	'label'			=> esc_html__( 'Featured Posts', 'airl' ),
-	'description'	=> esc_html__( 'To show featured posts in the featured section AND the content below', 'airl' ),
+	'description'	=> esc_html__( 'Exclude featured posts from the content below', 'airl' ),
 	'section'		=> 'blog',
-	'default'		=> true,
+	'default'		=> 'off',
 ) );
 // Blog: Featured Category
 Kirki::add_field( 'airl_theme', array(
