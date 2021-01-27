@@ -913,11 +913,11 @@ box-shadow: 0 0 2px rgba(255,255,255,0.4);
 
 .post-format { position: relative; z-index: 2; }
 
-.front-widgets { margin: 20px 0; }
+.front-widgets { margin: 0 0 40px; }
 .front-widget-col { width: 50%; float: left; }
 .front-widget-inner { margin-right: 30px; }
 .front-widgets .widget { padding-top: 20px; padding-bottom: 20px; }
-.front-widgets .widget > h3 {  }
+.front-widgets .widget > h3 { color: #333; border-bottom-color: #fff; }
 
 
 /* ------------------------------------------------------------------------- *
@@ -1236,12 +1236,6 @@ body.single .card-articles-wrap { padding-bottom: 60px; }
 .sidebar .widget { background: #fff; box-shadow: 0 10px 10px rgba(0,0,0,0.03), 0 1px 0 rgba(0,0,0,0.05); position: relative; margin-bottom: 30px; border-radius: 10px 10px 20px 20px; padding: 20px 30px 30px; }
 .sidebar .widget > h3 { margin: -20px -30px 10px -30px; padding: 20px 30px 20px 30px; border-radius: 10px 10px 20px 20px; }
 
-/*  widgets : title icons
-/* ------------------------------------ */
-/*
-.widget > h3:before { content:""; background: linear-gradient(90deg, #0072ff 0%, #00d4ff 100%); border-radius: 100%; height: 16px; width: 16px; position: absolute; left: 8px; top: 13px; }
-*/
-
 /*  widgets : icons
 /* ------------------------------------ */
 .widget > ul li:before,
@@ -1393,71 +1387,6 @@ body.single .card-articles-wrap { padding-bottom: 60px; }
 .s1 .alx-posts .post-item-title { font-size: 18px; line-height: 1.4em; font-weight: 300; }
 .s1 .alx-posts .post-item-category,
 .s1 .alx-posts .post-item-date { font-size: 14px; }
-
-/*  custom widget : alxvideo
-/* ------------------------------------ */
-.widget_airl_video h3 { margin-bottom: 14px; }
-
-
-/* ------------------------------------------------------------------------- *
- *  Light Widgets
-/* ------------------------------------------------------------------------- */
-.light-widgets .widget { color: rgba(0,0,0,0.6); }
-.light-widgets .widget a { color: rgba(0,0,0,0.6); }
-.light-widgets .widget a:hover { color: rgba(0,0,0,0.8); }
-.light-widgets .widget > h3,
-.light-widgets .widget > h3 a,
-.light-widgets .widget > h3 a:hover { color: rgba(0,0,0,0.4); }
-.light-widgets .widget select { background: #fff; border-color: rgba(0,0,0,0.1); color: rgba(0,0,0,0.8); }
-
-/*  widgets : icons
-/* ------------------------------------ */
-.light-widgets .widget > ul li:before,
-.light-widgets .widget > ul li a:before,
-.light-widgets .widget > div > ul li a:before  { color: rgba(0,0,0,0.6); opacity: 0.5; }
-.light-widgets .widget_calendar caption:before { color: rgba(255,255,255,0.4); }
-.light-widgets .widget > ul li a:hover:before { color: rgba(0,0,0,0.8); }
-
-/*  widgets : common
-/* ------------------------------------ */
-.light-widgets .widget_archive ul li,
-.light-widgets .widget_categories ul li,
-.light-widgets .widget_links ul li,
-.light-widgets .widget_recent_comments ul li,
-.light-widgets .widget_recent_entries ul li { color: rgba(0,0,0,0.6); }
-
-/*  widget : pages / custom menu
-/* ------------------------------------ */
-
-/*  widget : rss
-/* ------------------------------------ */
-.light-widgets .widget_rss ul li a { color: rgba(0,0,0,0.6); }
-.light-widgets .widget_rss ul li span.rss-date { color: rgba(0,0,0,0.8); }
-.light-widgets .widget_rss ul li cite { color: rgba(0,0,0,0.5); }
-
-/*  widget : search
-/* ------------------------------------ */
-.light-widgets .widget_search input.search { background: transparent; color: rgba(0,0,0,0.7); border: 1px solid rgba(0,0,0,0.1); }
-.light-widgets .widget_search input.search:focus { color: rgba(0,0,0,0.9); }
-
-/*  widget : calendar
-/* ------------------------------------ */
-.light-widgets .widget_calendar a:hover { color: rgba(0,0,0,0.8); }
-.light-widgets .widget_calendar a { color: rgba(0,0,0,0.6); }
-.light-widgets .widget_calendar thead { background: rgba(0,0,0,0.1); color: rgba(0,0,0,0.5); -webkit-box-shadow: 0 1px 0 rgba(0,0,0,0.1); box-shadow: inset 0 -1px 0 rgba(0,0,0,0.1); }
-.light-widgets .widget_calendar caption { color: rgba(255,255,255,0.8); background: rgba(0,0,0,0.7); }
-.light-widgets .widget_calendar th, 
-.light-widgets .widget_calendar td { border-color: rgba(0,0,0,0.05);  }
-
-/*  custom widget : alxtabs / alxposts
-/* ------------------------------------ */
-.light-widgets .alx-tabs-nav { background: #fff; }
-.light-widgets .alx-tabs-nav li a { color: rgba(0,0,0,0.4);}
-.light-widgets .alx-tabs-nav li.active a { color: rgba(0,0,0,0.8); }
-
-.light-widgets .alx-tab .tab-item-date, 
-.light-widgets .alx-tab .tab-item-name, 
-.light-widgets .alx-posts .post-item-date { color: rgba(0,0,0,0.5); }
 
 
 /* ------------------------------------------------------------------------- *
