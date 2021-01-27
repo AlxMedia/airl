@@ -290,33 +290,6 @@ Kirki::add_field( 'airl_theme', array(
 	'section'		=> 'header',
 	'default'		=> 'on',
 ) );
-// Header: Profile Avatar
-Kirki::add_field( 'airl_theme', array(
-	'type'			=> 'image',
-	'settings'		=> 'profile-image',
-	'label'			=> esc_html__( 'Profile Image', 'airl' ),
-	'description'	=> esc_html__( 'Minimum width of 200px', 'airl' ),
-	'section'		=> 'header',
-	'default'		=> '',
-) );
-// Header: Profile Name
-Kirki::add_field( 'airl_theme', array(
-	'type'			=> 'text',
-	'settings'		=> 'profile-name',
-	'label'			=> esc_html__( 'Profile Name', 'airl' ),
-	'description'	=> esc_html__( 'Your name appears below the image', 'airl' ),
-	'section'		=> 'header',
-	'default'		=> '',
-) );
-// Header: Profile Description
-Kirki::add_field( 'airl_theme', array(
-	'type'			=> 'textarea',
-	'settings'		=> 'profile-description',
-	'label'			=> esc_html__( 'Profile Description', 'airl' ),
-	'description'	=> esc_html__( 'A short description of you', 'airl' ),
-	'section'		=> 'header',
-	'default'		=> '',
-) );
 // Footer: Ads
 Kirki::add_field( 'airl_theme', array(
 	'type'			=> 'switch',
@@ -331,7 +304,7 @@ Kirki::add_field( 'airl_theme', array(
 	'type'			=> 'radio-image',
 	'settings'		=> 'footer-widgets',
 	'label'			=> esc_html__( 'Footer Widget Columns', 'airl' ),
-	'description'	=> esc_html__( 'Select columns to enable footer widgets. Recommended number: 2', 'airl' ),
+	'description'	=> esc_html__( 'Select columns to enable footer widgets. Recommended number: 3', 'airl' ),
 	'section'		=> 'footer',
 	'default'		=> '0',
 	'choices'     => array(
