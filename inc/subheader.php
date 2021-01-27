@@ -3,7 +3,7 @@
 		<div class="subheader-inner container-inner">
 			<ul class="subheader-list group">
 				<li><strong><?php esc_html_e('Featured','airl'); ?></strong> <i class="fa fa-arrow-down"></i></li>
-				<li><strong><?php echo airl_total_posts(); ?> <?php esc_html_e('Articles','airl'); ?></strong> <i class="fa fa-copy"></i></li>				
+				<li><strong><?php echo esc_html( get_theme_mod('featured-posts-count','7') ); ?> <?php esc_html_e('Articles','airl'); ?></strong> <i class="fa fa-copy"></i></li>			
 			</ul>
 		</div>
 	</div>

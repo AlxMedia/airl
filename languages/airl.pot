@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Airl\n"
-"POT-Creation-Date: 2021-01-27 13:26+0100\n"
+"POT-Creation-Date: 2021-01-27 16:13+0100\n"
 "PO-Revision-Date: 2018-09-21 21:27+0100\n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -753,7 +753,7 @@ msgid "Skip to content"
 msgstr ""
 
 #: inc/card-articles.php:20
-msgid "Highlight"
+msgid "Highlights"
 msgstr ""
 
 #: inc/page-title.php:17

@@ -1038,7 +1038,7 @@ body.single .card-articles-wrap { padding-bottom: 60px; }
 .entry-list .post-comments { right: 30px; }
 
 .entry-list .entry-title { margin: 22px 40px 12px 0; }
-.entry-list .entry-title a { font-size: 28px; line-height: 1.5em; font-weight: 600; }
+.entry-list .entry-title a { font-size: 28px; line-height: 1.4em; font-weight: 600; }
 .entry-list .entry-title a:hover { color: #00a0ff; }
 .entry-list .entry-excerpt { font-size: 18px; color: #999; line-height: 1.5em; margin-bottom: 20px; }
 
