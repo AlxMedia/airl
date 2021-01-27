@@ -104,6 +104,7 @@ if ( ! function_exists( 'airl_dynamic_css' ) ) {
 			// primary color
 			if ( get_theme_mod('color-1','#00a0ff') != '#00a0ff' ) {
 				$styles .= '
+.entry a,
 .subheader ul.subheader-list li a,
 .card-header-title,
 .mini-card-title a:hover,

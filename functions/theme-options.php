@@ -147,7 +147,7 @@ Kirki::add_field( 'airl_theme', array(
 	'label'			=> esc_html__( 'Featured Posts', 'airl' ),
 	'description'	=> esc_html__( 'To show featured posts in the featured section AND the content below', 'airl' ),
 	'section'		=> 'blog',
-	'default'		=> false,
+	'default'		=> true,
 ) );
 // Blog: Featured Category
 Kirki::add_field( 'airl_theme', array(
