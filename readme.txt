@@ -64,5 +64,8 @@ Source: https://stocksnap.io
 
 == Changelog ==
 
-= 1.0.0 - 2021-01-28 =
+= 1.0.1 - 2021-01-28 =
+* Added blog layout options standard, grid and list
+
+= 1.0.0 - 2021-01-27 =
 * Initial release

@@ -1,7 +1,7 @@
 /*
 Theme Name: Airl
 Theme URI: http://alx.media/themes/airl/
-Version: 1.0.0
+Version: 1.0.1
 Requires at least: 5.0
 Requires PHP: 5.6
 Tested up to: 5.5
@@ -1027,7 +1027,10 @@ body.single .card-articles-wrap { padding-bottom: 60px; }
 .content > article { background: #fff; border-radius: 10px 10px 20px 20px; box-shadow: 0 10px 10px rgba(0,0,0,0.03), 0 1px 0 rgba(0,0,0,0.05); }
 .post-wrapper { width: 100%; overflow: hidden; }
 
-.entry-list {  margin-bottom: 30px; font-weight: 300; position: relative; }
+/*  blog layout : standard
+/* ------------------------------------ */
+.entry-list { margin-bottom: 30px; font-weight: 300; position: relative; }
+.entry-list > article { background: #fff; border-radius: 10px 10px 20px 20px; box-shadow: 0 10px 10px rgba(0,0,0,0.03), 0 1px 0 rgba(0,0,0,0.05); }
 
 .entry-list-inner { padding: 0 30px 20px 30px; position: relative; }
 .entry-list-inner.entry-thumbnail-enabled {  }
@@ -1038,7 +1041,7 @@ body.single .card-articles-wrap { padding-bottom: 60px; }
 .entry-list .post-comments { right: 30px; }
 
 .entry-list .entry-title { margin: 22px 40px 12px 0; }
-.entry-list .entry-title a { font-size: 28px; line-height: 1.4em; font-weight: 600; }
+.entry-list .entry-title a { font-size: 28px; line-height: 1.3em; font-weight: 600; }
 .entry-list .entry-title a:hover { color: #00a0ff; }
 .entry-list .entry-excerpt { font-size: 18px; color: #999; line-height: 1.5em; margin-bottom: 20px; }
 
@@ -1066,6 +1069,27 @@ body.single .card-articles-wrap { padding-bottom: 60px; }
 
 .entry-bar { -webkit-transition: all 0.25s ease-in-out; transition: all 0.25s ease-in-out; -webkit-transform: translate3d(0, 0, 0); transform: translate3d(0, 0, 0); }
 .entry-bar.hide-scroll { -webkit-transform: translateY(100%); transform: translateY(100%); }
+
+/*  blog layout : grid
+/* ------------------------------------ */
+.article-grid { display: grid; grid-template-columns: repeat(auto-fill,minmax(300px,1fr)); gap: 30px; }
+.article-grid > article { background: #fff; border-radius: 10px 10px 20px 20px; box-shadow: 0 10px 10px rgba(0,0,0,0.03), 0 1px 0 rgba(0,0,0,0.05); margin-bottom: 0; }
+
+/*  blog layout : list
+/* ------------------------------------ */
+.article-list > article { background: #fff; padding-left: 30px; margin-bottom: 30px; border-radius: 10px 10px 20px 20px; box-shadow: 0 10px 10px rgba(0,0,0,0.03), 0 1px 0 rgba(0,0,0,0.05); }
+.article-list .entry-list-inner { float: left; width: 70%; box-sizing: border-box; }  
+.article-list .entry-list .entry-thumbnail { float: left; width: 30%; margin-top: 30px; }
+.article-list .entry-list .post-comments { top: 30px; }
+
+/*  blog layout : search results
+/* ------------------------------------ */
+body.search article.type-page .post-comments,
+body.search article.type-page .entry-meta { display: none; }
+
+body.search .article-list > article.type-page { padding-left: 0; }
+body.search .article-list > article.type-page .entry-thumbnail { display: none; }
+body.search .article-list > article.type-page .entry-list-inner { width: 100%; }
 
 
 /* ------------------------------------------------------------------------- *

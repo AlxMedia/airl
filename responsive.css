@@ -37,6 +37,12 @@
 	
 	.entry-list .entry-title a { font-size: 24px; line-height: 1.4em; }
 	
+	/* blog */
+	.article-list > article { padding-left: 0; }
+	.article-list .entry-list-inner { float: none; width: 100%; }  
+	.article-list .entry-list .entry-thumbnail { float: none; width: 100%; margin-top: 0; }
+	.article-list .entry-list .post-comments { top: 0; }
+	
 	/* single */
 	.sharrre-footer .sharrre .share span { display: none; }
 	.sharrre-footer .sharrre .share .fa { bottom: 0; }
@@ -229,6 +235,11 @@
 	.entry-content,
 	.entry-footer { padding-right: 20px; padding-left: 20px; }
 	.entry-list .entry-title a { font-size: 22px; }
+
+	.article-list > article { padding-left: 0; }
+	.article-list .entry-list-inner { float: none; width: 100%; }  
+	.article-list .entry-list .entry-thumbnail { float: none; width: 100%; margin-top: 0; }
+	.article-list .entry-list .post-comments { top: 0; }
 	
 	/* sharrre */
 	.sharrre-footer .sharrre .count { display: none; }

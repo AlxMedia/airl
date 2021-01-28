@@ -126,6 +126,19 @@ Kirki::add_field( 'airl_theme', array(
 	'section'		=> 'blog',
 	'default'		=> '',
 ) );
+// Blog: Blog Layout
+Kirki::add_field( 'airl_theme', array(
+	'type'			=> 'radio',
+	'settings'		=> 'blog-layout',
+	'label'			=> esc_html__( 'Blog Layout', 'airl' ),
+	'section'		=> 'blog',
+	'default'		=> 'blog-standard',
+	'choices'		=> array(
+		'blog-standard'	=> esc_html__( 'Standard', 'airl' ),
+		'blog-grid'		=> esc_html__( 'Grid', 'airl' ),
+		'blog-list'		=> esc_html__( 'List', 'airl' ),
+	),
+) );
 // Blog: Excerpt Length
 Kirki::add_field( 'airl_theme', array(
 	'type'			=> 'slider',
