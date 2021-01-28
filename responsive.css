@@ -2,6 +2,7 @@
 
 @media only screen and (min-width: 921px) and (max-width: 1080px) {
 	.main { padding: 0; }
+	.entry-list .entry-title a { font-size: 24px; }
 }
 
 /* ------------------------------------------------------------------------- *
