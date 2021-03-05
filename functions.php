@@ -100,7 +100,7 @@ add_action( 'after_setup_theme', 'airl_setup' );
 /* ------------------------------------ */
 add_action( 'wp', function() {
 	require_once 'functions/nav.php';
-	$nav = new \AlxMedia\Nav();
+	$nav = new \Airl\Nav();
 	$nav->enqueue(
 		[
 			'script' => 'js/nav.js',
