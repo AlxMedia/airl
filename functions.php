@@ -72,6 +72,9 @@ if ( ! function_exists( 'airl_setup' ) ) {
 		// Declare WooCommerce support
 		add_theme_support( 'woocommerce' );
 		
+		// Disable support for widgets block editor
+		remove_theme_support( 'widgets-block-editor' );
+		
 		// Enable support for selective refresh of widgets in customizer
 		add_theme_support( 'customize-selective-refresh-widgets' );
 		
