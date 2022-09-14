@@ -1,14 +1,14 @@
 /*
 Theme Name: Airl
 Theme URI: http://alx.media/themes/airl/
-Version: 1.0.9
+Version: 1.1.0
 Requires at least: 5.0
 Requires PHP: 5.6
 Tested up to: 6.0
-Description: <a href="http://alx.media/themes/airl/">Airl</a> is a flexible magazine and personal blog theme with plenty of options. It is optimized for all devices and built to work with blocks. You can pick accent colors, set sidebar to the left or right and choose website max-width with a few clicks. Demo: http://demo.alx.media/x/?theme=Airl
+Description: <a href="http://alx.media/themes/airl/">Airl</a> is a flexible magazine and personal blog theme with plenty of options. It is optimized for all devices. You can pick accent colors, set sidebar to the left or right and choose website max-width with a few clicks. Demo: http://demo.alx.media/x/?theme=Airl
 Author: Alexander Agnarson
 Author URI: http://alx.media
-Tags: blog, one-column, two-columns, right-sidebar, left-sidebar, custom-colors, custom-menu, featured-images, flexible-header, full-width-template, post-formats, sticky-post, theme-options, threaded-comments, translation-ready, custom-logo, custom-header, custom-background
+Tags: blog, one-column, two-columns, right-sidebar, left-sidebar, custom-colors, custom-menu, featured-images, flexible-header, full-width-template, post-formats, sticky-post, theme-options, threaded-comments, translation-ready, custom-logo, custom-header, custom-background, news, entertainment, footer-widgets
 Text Domain: airl
 
 	Copyright: (c) 2018 Alexander "Alx" Agnarson
@@ -218,7 +218,7 @@ input, textarea, button, select, label { font-family: inherit; }
 /*  base : entry
 /* ------------------------------------ */
 .entry { font-size: 19px; line-height: 1.6em; }
-.entry a { color: #00a0ff; }
+.entry a { color: #00a0ff; text-decoration: underline; }
 .entry a:hover { color: #333; }
 .entry hr { border: 0; background: #e5e5e5; height: 2px; width: 30%; margin: 40px auto; }
 .entry p,
@@ -689,7 +689,7 @@ box-shadow: 0 0 2px rgba(255,255,255,0.4);
 
 /*  header : search
 /* ------------------------------------ */
-.header-search { position: absolute; z-index: 9999; right: 40px; top: 8px; }
+.header-search { position: absolute; z-index: 99; right: 40px; top: 8px; }
 .toggle-search { background: #fff; color: rgba(0,0,0,0.7); outline: none; border: 0; border-radius: 10px 10px 20px 20px; padding: 6px 10px; float: right; text-align: center; font-size: 18px; line-height: 24px; cursor: pointer; display: block; }
 .search-expand { display: none; position: absolute; top: 3px; right: 54px; width: 300px; z-index: 102; }
 .search-expand .themeform input { background: #fff; width: 100%; border-radius: 6px; border: 1px solid #ddd; }
@@ -699,7 +699,9 @@ box-shadow: 0 0 2px rgba(255,255,255,0.4);
 .toggle-search .svg-icon { fill: #333; margin: 0 auto; }
 .toggle-search #svg-close { display: none; }
 .toggle-search.active #svg-search { display: none; }
-.toggle-search.active #svg-close { display: block; }
+.toggle-search.active #svg-close { display: block; fill: rgba(0,0,0,0.5); }
+.toggle-search:focus #svg-search { fill: rgba(0,0,0,0.5); }
+.toggle-search:focus #svg-close { fill: #333; }
 
 
 /* ------------------------------------------------------------------------- *
@@ -796,6 +798,8 @@ box-shadow: 0 0 2px rgba(255,255,255,0.4);
 .nav-menu.mobile.toggled > div > ul.menu ul.sub-menu { visibility: hidden; transition: all 0.3s ease; }
 .nav-menu.mobile.toggled > div > ul.menu,
 .nav-menu.mobile.toggled > div > ul.menu ul.sub-menu.active { visibility: visible; }
+.nav-menu.mobile button:focus,
+.menu-toggle:focus { background: rgba(0,0,0,0.04); }
 
 /* menu styling */
 .nav-menu a { color: #fff; }
@@ -1588,6 +1592,6 @@ li #reply-title { font-size: 0; margin: 0!important; padding: 0; height: 0; bord
 /* ------------------------------------------------------------------------- */
 /* Text meant only for screen readers. */
 .screen-reader-text{ border: 0; clip: rect(1px, 1px, 1px, 1px); clip-path: inset(50%); height: 1px; margin: -1px; overflow: hidden; padding: 0; position: absolute!important; width: 1px; word-wrap: normal!important; }
-.screen-reader-text:focus { background-color: #fff; border-radius: 3px; box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.1); clip: auto!important; clip-path: none; color: #333; display: block; font-size: 14px; font-size: 0.875rem; font-weight: bold; height: auto; right: 5px; line-height: normal; padding: 15px 23px 14px; text-decoration: none; top: 5px; width: auto; z-index: 100000; }
+.screen-reader-text:focus { background-color: #fff; border-radius: 3px; box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.1); clip: auto!important; clip-path: none; color: #333; display: block; font-size: 14px; font-size: 0.875rem; font-weight: bold; height: auto; left: auto; right: 5px; line-height: normal; padding: 15px 23px 14px; text-decoration: none; top: 5px; width: auto; z-index: 100000; }
 /* Do not show the outline on the skip link target. */
 #page[tabindex="-1"]:focus{ outline: 0; }
