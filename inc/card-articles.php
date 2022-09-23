@@ -17,7 +17,7 @@ $highlight = new WP_Query(
 	<div class="card-articles container-inner">
 
 		<div class="card-header">
-			<h2 class="card-header-title"><i class="fas fa-fire"></i> <span><?php esc_html_e('Highlights','magaziner'); ?></span></h2>
+			<h2 class="card-header-title"><i class="fas fa-fire"></i> <span><?php esc_html_e('Highlights','airl'); ?></span></h2>
 		</div>
 		<div class="mini-card-grid">	
 			<?php while ( $highlight->have_posts() ): $highlight->the_post(); ?>
