@@ -132,7 +132,7 @@ Kirki::add_field( 'airl_theme', array(
 	'settings'		=> 'blog-layout',
 	'label'			=> esc_html__( 'Blog Layout', 'airl' ),
 	'section'		=> 'blog',
-	'default'		=> 'blog-standard',
+	'default'		=> 'blog-grid',
 	'choices'		=> array(
 		'blog-standard'	=> esc_html__( 'Standard', 'airl' ),
 		'blog-grid'		=> esc_html__( 'Grid', 'airl' ),

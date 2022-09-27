@@ -76,6 +76,9 @@ Header images
 
 == Changelog ==
 
+= 1.1.1 - 2022-09-27 =
+* Set grid as default layout
+
 = 1.1.0 - 2022-09-22 =
 * Changed theme from premium to free
 
