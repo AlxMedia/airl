@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Airl\n"
-"POT-Creation-Date: 2022-10-16 10:59+0200\n"
+"POT-Creation-Date: 2022-10-16 15:24+0200\n"
 "PO-Revision-Date: 2018-09-21 21:27+0100\n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -145,10 +145,10 @@ msgid "Primary Sidebar"
 msgstr ""
 
 #: functions/meta-boxes.php:31 functions/meta-boxes.php:65
-#: functions/theme-options.php:501 functions/theme-options.php:511
-#: functions/theme-options.php:521 functions/theme-options.php:531
-#: functions/theme-options.php:541 functions/theme-options.php:551
-#: functions/theme-options.php:561
+#: functions/theme-options.php:509 functions/theme-options.php:519
+#: functions/theme-options.php:529 functions/theme-options.php:539
+#: functions/theme-options.php:549 functions/theme-options.php:559
+#: functions/theme-options.php:569
 msgid "Select a sidebar"
 msgstr ""
 
@@ -468,299 +468,311 @@ msgstr ""
 msgid "Other layouts will override this option if they are set"
 msgstr ""
 
-#: functions/theme-options.php:384 functions/theme-options.php:496
+#: functions/theme-options.php:385 functions/theme-options.php:504
 msgid "Home"
 msgstr ""
 
-#: functions/theme-options.php:385
+#: functions/theme-options.php:386
 msgid "(is_home) Posts homepage layout"
 msgstr ""
 
-#: functions/theme-options.php:398 functions/theme-options.php:506
+#: functions/theme-options.php:400 functions/theme-options.php:514
 msgid "Single"
 msgstr ""
 
-#: functions/theme-options.php:399
+#: functions/theme-options.php:401
 msgid ""
 "(is_single) Single post layout - If a post has a set layout, it will "
 "override this."
 msgstr ""
 
-#: functions/theme-options.php:412 functions/theme-options.php:516
+#: functions/theme-options.php:415 functions/theme-options.php:524
 msgid "Archive"
 msgstr ""
 
-#: functions/theme-options.php:413
+#: functions/theme-options.php:416
 msgid "(is_archive) Category, date, tag and author archive layout"
 msgstr ""
 
-#: functions/theme-options.php:426 functions/theme-options.php:526
+#: functions/theme-options.php:430 functions/theme-options.php:534
 msgid "Archive - Category"
 msgstr ""
 
-#: functions/theme-options.php:427
+#: functions/theme-options.php:431
 msgid "(is_category) Category archive layout"
 msgstr ""
 
-#: functions/theme-options.php:440 functions/theme-options.php:536
+#: functions/theme-options.php:445 functions/theme-options.php:544
 msgid "Search"
 msgstr ""
 
-#: functions/theme-options.php:441
+#: functions/theme-options.php:446
 msgid "(is_search) Search page layout"
 msgstr ""
 
-#: functions/theme-options.php:454 functions/theme-options.php:546
+#: functions/theme-options.php:460 functions/theme-options.php:554
 msgid "Error 404"
 msgstr ""
 
-#: functions/theme-options.php:455
+#: functions/theme-options.php:461
 msgid "(is_404) Error 404 page layout"
 msgstr ""
 
-#: functions/theme-options.php:468 functions/theme-options.php:556
+#: functions/theme-options.php:475 functions/theme-options.php:564
 msgid "Default Page"
 msgstr ""
 
-#: functions/theme-options.php:469
+#: functions/theme-options.php:476
 msgid ""
 "(is_page) Default page layout - If a page has a set layout, it will override "
 "this."
 msgstr ""
 
-#: functions/theme-options.php:497
+#: functions/theme-options.php:505
 msgid "(is_home) Primary"
 msgstr ""
 
-#: functions/theme-options.php:507
+#: functions/theme-options.php:515
 msgid ""
 "(is_single) Primary - If a single post has a unique sidebar, it will "
 "override this."
 msgstr ""
 
-#: functions/theme-options.php:517
+#: functions/theme-options.php:525
 msgid "(is_archive) Primary"
 msgstr ""
 
-#: functions/theme-options.php:527
+#: functions/theme-options.php:535
 msgid "(is_category) Primary"
 msgstr ""
 
-#: functions/theme-options.php:537
+#: functions/theme-options.php:545
 msgid "(is_search) Primary"
 msgstr ""
 
-#: functions/theme-options.php:547
+#: functions/theme-options.php:555
 msgid "(is_404) Primary"
 msgstr ""
 
-#: functions/theme-options.php:557
+#: functions/theme-options.php:565
 msgid ""
 "(is_page) Primary - If a page has a unique sidebar, it will override this."
 msgstr ""
 
-#: functions/theme-options.php:570
+#: functions/theme-options.php:578
 msgid "Create Social Links"
 msgstr ""
 
-#: functions/theme-options.php:571
+#: functions/theme-options.php:579
 msgid "Create and organize your social links"
 msgstr ""
 
-#: functions/theme-options.php:573
+#: functions/theme-options.php:581
 msgid "Font Awesome names:"
 msgstr ""
 
-#: functions/theme-options.php:573 functions/theme-options.php:590
+#: functions/theme-options.php:581 functions/theme-options.php:598
 msgid "View All"
 msgstr ""
 
-#: functions/theme-options.php:576
+#: functions/theme-options.php:584
 msgid "social link"
 msgstr ""
 
-#: functions/theme-options.php:583
+#: functions/theme-options.php:591
 msgid "Title"
 msgstr ""
 
-#: functions/theme-options.php:584
+#: functions/theme-options.php:592
 msgid "Ex: Facebook"
 msgstr ""
 
-#: functions/theme-options.php:589
+#: functions/theme-options.php:597
 msgid "Icon Name"
 msgstr ""
 
-#: functions/theme-options.php:590
+#: functions/theme-options.php:598
 msgid "Font Awesome icons. Ex: fa-facebook "
 msgstr ""
 
-#: functions/theme-options.php:595
+#: functions/theme-options.php:603
 msgid "Link"
 msgstr ""
 
-#: functions/theme-options.php:596
+#: functions/theme-options.php:604
 msgid "Enter the full url for your icon button"
 msgstr ""
 
-#: functions/theme-options.php:601
+#: functions/theme-options.php:609
 msgid "Icon Color"
 msgstr ""
 
-#: functions/theme-options.php:602
+#: functions/theme-options.php:610
 msgid "Set a unique color for your icon (optional)"
 msgstr ""
 
-#: functions/theme-options.php:607
+#: functions/theme-options.php:615
 msgid "Open in new window"
 msgstr ""
 
-#: functions/theme-options.php:616
+#: functions/theme-options.php:624
 msgid "Dynamic Styles"
 msgstr ""
 
-#: functions/theme-options.php:617
+#: functions/theme-options.php:625
 msgid "Turn on to use the styling options below"
 msgstr ""
 
-#: functions/theme-options.php:625
+#: functions/theme-options.php:633
 msgid "Boxed Layout"
 msgstr ""
 
-#: functions/theme-options.php:626
+#: functions/theme-options.php:634
 msgid "Use a boxed layout"
 msgstr ""
 
-#: functions/theme-options.php:634
+#: functions/theme-options.php:642
 msgid "Font"
 msgstr ""
 
-#: functions/theme-options.php:635
+#: functions/theme-options.php:643
 msgid "Select font for the theme"
 msgstr ""
 
-#: functions/theme-options.php:639
+#: functions/theme-options.php:647
 msgid "Titillium Web, Latin (Self-hosted)"
 msgstr ""
 
-#: functions/theme-options.php:640
+#: functions/theme-options.php:648
 msgid "Titillium Web, Latin-Ext"
 msgstr ""
 
-#: functions/theme-options.php:641
+#: functions/theme-options.php:649
 msgid "Droid Serif, Latin"
 msgstr ""
 
-#: functions/theme-options.php:642
+#: functions/theme-options.php:650
 msgid "Source Sans Pro, Latin-Ext"
 msgstr ""
 
-#: functions/theme-options.php:643
+#: functions/theme-options.php:651
 msgid "Lato, Latin"
 msgstr ""
 
-#: functions/theme-options.php:644
+#: functions/theme-options.php:652
 msgid "Raleway, Latin"
 msgstr ""
 
-#: functions/theme-options.php:645
+#: functions/theme-options.php:653
 msgid "Ubuntu, Latin-Ext"
 msgstr ""
 
-#: functions/theme-options.php:646
+#: functions/theme-options.php:654
 msgid "Ubuntu, Latin / Cyrillic-Ext"
 msgstr ""
 
-#: functions/theme-options.php:647
+#: functions/theme-options.php:655
 msgid "Roboto, Latin-Ext"
 msgstr ""
 
-#: functions/theme-options.php:648
+#: functions/theme-options.php:656
 msgid "Roboto, Latin / Cyrillic-Ext"
 msgstr ""
 
-#: functions/theme-options.php:649
+#: functions/theme-options.php:657
 msgid "Roboto Condensed, Latin-Ext"
 msgstr ""
 
-#: functions/theme-options.php:650
+#: functions/theme-options.php:658
 msgid "Roboto Condensed, Latin / Cyrillic-Ext"
 msgstr ""
 
-#: functions/theme-options.php:651
+#: functions/theme-options.php:659
 msgid "Roboto Slab, Latin-Ext"
 msgstr ""
 
-#: functions/theme-options.php:652
+#: functions/theme-options.php:660
 msgid "Roboto Slab, Latin / Cyrillic-Ext"
 msgstr ""
 
-#: functions/theme-options.php:653
+#: functions/theme-options.php:661
 msgid "Playfair Display, Latin-Ext"
 msgstr ""
 
-#: functions/theme-options.php:654
+#: functions/theme-options.php:662
 msgid "Playfair Display, Latin / Cyrillic"
 msgstr ""
 
-#: functions/theme-options.php:655
+#: functions/theme-options.php:663
 msgid "Open Sans, Latin-Ext"
 msgstr ""
 
-#: functions/theme-options.php:656
+#: functions/theme-options.php:664
 msgid "Open Sans, Latin / Cyrillic-Ext"
 msgstr ""
 
-#: functions/theme-options.php:657
+#: functions/theme-options.php:665
 msgid "PT Serif, Latin-Ext"
 msgstr ""
 
-#: functions/theme-options.php:658
+#: functions/theme-options.php:666
 msgid "PT Serif, Latin / Cyrillic-Ext"
 msgstr ""
 
-#: functions/theme-options.php:659
+#: functions/theme-options.php:667
 msgid "Arial"
 msgstr ""
 
-#: functions/theme-options.php:660
+#: functions/theme-options.php:668
 msgid "Georgia"
 msgstr ""
 
-#: functions/theme-options.php:661
+#: functions/theme-options.php:669
 msgid "Verdana"
 msgstr ""
 
-#: functions/theme-options.php:662
+#: functions/theme-options.php:670
 msgid "Tahoma"
 msgstr ""
 
-#: functions/theme-options.php:669
+#: functions/theme-options.php:677
 msgid "Header Logo Image Max-height"
 msgstr ""
 
-#: functions/theme-options.php:670
+#: functions/theme-options.php:678
 msgid ""
 "Your logo image should have the double height of this to be high resolution"
 msgstr ""
 
-#: functions/theme-options.php:683
+#: functions/theme-options.php:691
 msgid "Website Max-width"
 msgstr ""
 
-#: functions/theme-options.php:684
+#: functions/theme-options.php:692
 msgid "Max-width of the container."
 msgstr ""
 
-#: functions/theme-options.php:697
+#: functions/theme-options.php:705
+msgid "Single Content Max-width"
+msgstr ""
+
+#: functions/theme-options.php:706 functions/theme-options.php:720
+msgid "Max-width of the website content"
+msgstr ""
+
+#: functions/theme-options.php:719
+msgid "Page Content Max-width"
+msgstr ""
+
+#: functions/theme-options.php:733
 msgid "Primary Color"
 msgstr ""
 
-#: functions/theme-options.php:705
+#: functions/theme-options.php:741
 msgid "Gradient Left"
 msgstr ""
 
-#: functions/theme-options.php:713
+#: functions/theme-options.php:749
 msgid "Gradient Right"
 msgstr ""
 

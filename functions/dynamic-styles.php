@@ -101,6 +101,22 @@ if ( ! function_exists( 'airl_dynamic_css' ) ) {
 					$styles .= '.container-inner, .nav-menu:not(.mobile) { max-width: '.esc_attr( get_theme_mod('container-width') ).'px; }'."\n";
 				}
 			}
+			// single content max-width
+			if ( get_theme_mod('content-width-single','680') != '680' ) {
+				$styles .= '
+body.single .entry > :not(.alignfull),
+body.single .entry-header,
+body.single .entry-footer { max-width: '.esc_attr( get_theme_mod('content-width-single') ).'px; }
+				'."\n";
+			}
+			// page content max-width
+			if ( get_theme_mod('content-width-page','680') != '680' ) {
+				$styles .= '
+body.page .entry > :not(.alignfull),
+body.page .entry-header,
+body.page .entry-footer { max-width: '.esc_attr( get_theme_mod('content-width-page') ).'px; }
+				'."\n";
+			}
 			// primary color
 			if ( get_theme_mod('color-1','#00a0ff') != '#00a0ff' ) {
 				$styles .= '

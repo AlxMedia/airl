@@ -373,6 +373,7 @@ Kirki::add_field( 'airl_theme', array(
 	'section'		=> 'layout',
 	'default'		=> 'col-2cl',
 	'choices'     => array(
+		'col-1c'	=> get_template_directory_uri() . '/functions/images/col-1c.png',
 		'col-2cl'	=> get_template_directory_uri() . '/functions/images/col-2cl.png',
 		'col-2cr'	=> get_template_directory_uri() . '/functions/images/col-2cr.png',
 	),
@@ -387,6 +388,7 @@ Kirki::add_field( 'airl_theme', array(
 	'default'		=> 'inherit',
 	'choices'     => array(
 		'inherit'	=> get_template_directory_uri() . '/functions/images/layout-off.png',
+		'col-1c'	=> get_template_directory_uri() . '/functions/images/col-1c.png',
 		'col-2cl'	=> get_template_directory_uri() . '/functions/images/col-2cl.png',
 		'col-2cr'	=> get_template_directory_uri() . '/functions/images/col-2cr.png',
 	),
@@ -401,6 +403,7 @@ Kirki::add_field( 'airl_theme', array(
 	'default'		=> 'inherit',
 	'choices'     => array(
 		'inherit'	=> get_template_directory_uri() . '/functions/images/layout-off.png',
+		'col-1c'	=> get_template_directory_uri() . '/functions/images/col-1c.png',
 		'col-2cl'	=> get_template_directory_uri() . '/functions/images/col-2cl.png',
 		'col-2cr'	=> get_template_directory_uri() . '/functions/images/col-2cr.png',
 	),
@@ -415,6 +418,7 @@ Kirki::add_field( 'airl_theme', array(
 	'default'		=> 'inherit',
 	'choices'     => array(
 		'inherit'	=> get_template_directory_uri() . '/functions/images/layout-off.png',
+		'col-1c'	=> get_template_directory_uri() . '/functions/images/col-1c.png',
 		'col-2cl'	=> get_template_directory_uri() . '/functions/images/col-2cl.png',
 		'col-2cr'	=> get_template_directory_uri() . '/functions/images/col-2cr.png',
 	),
@@ -429,6 +433,7 @@ Kirki::add_field( 'airl_theme', array(
 	'default'		=> 'inherit',
 	'choices'     => array(
 		'inherit'	=> get_template_directory_uri() . '/functions/images/layout-off.png',
+		'col-1c'	=> get_template_directory_uri() . '/functions/images/col-1c.png',
 		'col-2cl'	=> get_template_directory_uri() . '/functions/images/col-2cl.png',
 		'col-2cr'	=> get_template_directory_uri() . '/functions/images/col-2cr.png',
 	),
@@ -443,6 +448,7 @@ Kirki::add_field( 'airl_theme', array(
 	'default'		=> 'inherit',
 	'choices'     => array(
 		'inherit'	=> get_template_directory_uri() . '/functions/images/layout-off.png',
+		'col-1c'	=> get_template_directory_uri() . '/functions/images/col-1c.png',
 		'col-2cl'	=> get_template_directory_uri() . '/functions/images/col-2cl.png',
 		'col-2cr'	=> get_template_directory_uri() . '/functions/images/col-2cr.png',
 	),
@@ -457,6 +463,7 @@ Kirki::add_field( 'airl_theme', array(
 	'default'		=> 'inherit',
 	'choices'     => array(
 		'inherit'	=> get_template_directory_uri() . '/functions/images/layout-off.png',
+		'col-1c'	=> get_template_directory_uri() . '/functions/images/col-1c.png',
 		'col-2cl'	=> get_template_directory_uri() . '/functions/images/col-2cl.png',
 		'col-2cr'	=> get_template_directory_uri() . '/functions/images/col-2cr.png',
 	),
@@ -471,6 +478,7 @@ Kirki::add_field( 'airl_theme', array(
 	'default'		=> 'inherit',
 	'choices'     => array(
 		'inherit'	=> get_template_directory_uri() . '/functions/images/layout-off.png',
+		'col-1c'	=> get_template_directory_uri() . '/functions/images/col-1c.png',
 		'col-2cl'	=> get_template_directory_uri() . '/functions/images/col-2cl.png',
 		'col-2cr'	=> get_template_directory_uri() . '/functions/images/col-2cr.png',
 	),
@@ -686,6 +694,34 @@ Kirki::add_field( 'airl_theme', array(
 	'default'		=> '1280',
 	'choices'     => array(
 		'min'	=> '1024',
+		'max'	=> '1920',
+		'step'	=> '1',
+	),
+) );
+// Styling: Single Content Max-width
+Kirki::add_field( 'airl_theme', array(
+	'type'			=> 'slider',
+	'settings'		=> 'content-width-single',
+	'label'			=> esc_html__( 'Single Content Max-width', 'airl' ),
+	'description'	=> esc_html__( 'Max-width of the website content', 'airl' ),
+	'section'		=> 'styling',
+	'default'		=> '680',
+	'choices'     => array(
+		'min'	=> '500',
+		'max'	=> '1920',
+		'step'	=> '1',
+	),
+) );
+// Styling: Page Content Max-width
+Kirki::add_field( 'airl_theme', array(
+	'type'			=> 'slider',
+	'settings'		=> 'content-width-page',
+	'label'			=> esc_html__( 'Page Content Max-width', 'airl' ),
+	'description'	=> esc_html__( 'Max-width of the website content', 'airl' ),
+	'section'		=> 'styling',
+	'default'		=> '680',
+	'choices'     => array(
+		'min'	=> '500',
 		'max'	=> '1920',
 		'step'	=> '1',
 	),
