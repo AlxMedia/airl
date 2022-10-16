@@ -76,6 +76,10 @@ Header images
 
 == Changelog ==
 
+= 1.1.2 - 2022-10-16 =
+* Added page and post option for full width layout
+* Updated language files
+
 = 1.1.1 - 2022-09-27 =
 * Set grid as default layout
 

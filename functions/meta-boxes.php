@@ -40,6 +40,7 @@ function airl_get_meta_box( $meta_boxes ) {
 				'max_file_uploads' => '4',
 				'options' => array(
 					'inherit' => get_template_directory_uri() . '/functions/images/layout-off.png',
+					'col-1c' => get_template_directory_uri() . '/functions/images/col-1c.png',
 					'col-2cl' => get_template_directory_uri() . '/functions/images/col-2cl.png',
 					'col-2cr' => get_template_directory_uri() . '/functions/images/col-2cr.png',
 				),
@@ -73,6 +74,7 @@ function airl_get_meta_box( $meta_boxes ) {
 				'max_file_uploads' => '4',
 				'options' => array(
 					'inherit' => get_template_directory_uri() . '/functions/images/layout-off.png',
+					'col-1c' => get_template_directory_uri() . '/functions/images/col-1c.png',
 					'col-2cl' => get_template_directory_uri() . '/functions/images/col-2cl.png',
 					'col-2cr' => get_template_directory_uri() . '/functions/images/col-2cr.png',
 				),
