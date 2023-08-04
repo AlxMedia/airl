@@ -76,6 +76,9 @@ Header images
 
 == Changelog ==
 
+= 1.1.4 - 2023-08-04 =
+* Updated to Font Awesome 6.4.2
+
 = 1.1.3 - 2022-10-16 =
 * Added theme options for full width layout
 * Added styling options for single and page content width
