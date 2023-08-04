@@ -78,6 +78,7 @@ Header images
 
 = 1.1.4 - 2023-08-04 =
 * Updated to Font Awesome 6.4.2
+* Updated to Kirki 4.2.0
 
 = 1.1.3 - 2022-10-16 =
 * Added theme options for full width layout
