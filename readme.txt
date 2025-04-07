@@ -8,7 +8,7 @@ Tags: blog, one-column, two-columns, right-sidebar, left-sidebar, custom-colors,
 
 == Description ==
 
-Airl is a flexible magazine and personal blog theme with plenty of options. It is optimized for all devices. You can pick accent colors, set sidebar to the left or right and choose website max-width with a few clicks. Demo: http://demo.alx.media/x/?theme=Airl
+Airl is a flexible magazine and personal blog theme with plenty of options. It is optimized for all devices. You can pick accent colors, set sidebar to the left or right and choose website max-width with a few clicks. Demo: https://demo.agnarson.com/?theme=Airl
 
 == Installation ==
 
@@ -19,7 +19,7 @@ Airl is a flexible magazine and personal blog theme with plenty of options. It i
 
 == Documentation ==
 
-http://alx.media/documentation/
+https://agnarson.com/documentation/
 
 == Copyright ==
 
